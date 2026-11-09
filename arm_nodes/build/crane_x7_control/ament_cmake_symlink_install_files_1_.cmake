@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_control" FILES "/opt/ros/lyrical/lib/python3.14/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/crane_x7_control/environment")

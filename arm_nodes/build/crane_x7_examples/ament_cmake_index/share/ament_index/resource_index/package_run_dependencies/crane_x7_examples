@@ -1,0 +1,1 @@
+angles;crane_x7_control;crane_x7_description;crane_x7_moveit_config;cv_bridge;geometry_msgs;image_geometry;image_transport;message_filters;libopencv-dev;moveit_ros_planning_interface;pcl_ros;rclcpp;realsense2_camera;tf2_geometry_msgs;ament_lint_auto;ament_lint_common

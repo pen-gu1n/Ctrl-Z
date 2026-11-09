@@ -1,0 +1,3 @@
+source;share/crane_x7_control/environment/ament_prefix_path.sh
+source;share/crane_x7_control/environment/library_path.sh
+source;share/crane_x7_control/environment/path.sh

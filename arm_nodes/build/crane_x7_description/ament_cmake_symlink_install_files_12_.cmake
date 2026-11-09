@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/f-keiji/Ctrl_Z_ws/src/crane_x7_description" FILES "/home/f-keiji/Ctrl_Z_ws/build/crane_x7_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/crane_x7_description")

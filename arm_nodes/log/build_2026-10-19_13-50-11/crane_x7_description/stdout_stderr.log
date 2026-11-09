@@ -1,0 +1,82 @@
+Built target ament_cmake_python_sync_crane_x7_description
+running egg_info
+writing crane_x7_description.egg-info/PKG-INFO
+writing dependency_links to crane_x7_description.egg-info/dependency_links.txt
+writing top-level names to crane_x7_description.egg-info/top_level.txt
+reading manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+writing manifest file 'crane_x7_description.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_crane_x7_description_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//config/dummy_controllers.yaml
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//launch/display.launch.py
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//launch/display.rviz
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/base_fixed_part.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/base_fixed_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/mounting_plate.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/mounting_plate.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_fixed_part.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_fixed_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_revolute_part.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_1_revolute_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_fixed_part.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_fixed_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_revolute_part.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/rotating_link_type_2_revolute_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_actuator.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_actuator.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_a.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_a.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_b.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wide_two_finger_gripper_finger_b.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wrist.skp
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/collision/wrist.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/base_fixed_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/base_revolute_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/joint_cover.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/mounting_plate.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_1_fixed_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_1_revolute_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_2_fixed_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rotating_link_type_2_revolute_part.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rtcorp_logo_name.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/rtcorp_logo_rabbit.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_actuator.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_finger_a.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wide_two_finger_gripper_finger_b.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//meshes/visual/wrist.stl
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.gazebo.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.gazebo_ros2_control.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.ros2_control.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.urdf.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_arm.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_mounting_plate.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_rt_logos.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description//urdf/crane_x7_wide_two_finger_gripper.xacro
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/environment/pythonpath.sh
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/crane_x7_description/robot_description_loader.py
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/ament_index/resource_index/package_run_dependencies/crane_x7_description
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/ament_index/resource_index/parent_prefix_path/crane_x7_description
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/environment/path.sh
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/environment/path.dsv
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/local_setup.bash
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/local_setup.fish
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/local_setup.sh
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/local_setup.zsh
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/local_setup.dsv
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/package.dsv
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/ament_index/resource_index/packages/crane_x7_description
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description-4.0.0-py3.14.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description-4.0.0-py3.14.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description-4.0.0-py3.14.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description-4.0.0-py3.14.egg-info/top_level.txt
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description/__init__.py
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description/robot_description_loader.py
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/cmake/crane_x7_descriptionConfig.cmake
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/cmake/crane_x7_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/share/crane_x7_description/package.xml
+Listing '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages/crane_x7_description'...

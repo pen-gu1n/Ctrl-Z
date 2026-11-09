@@ -1,0 +1,1 @@
+/home/f-keiji/Ctrl_Z_ws/src/crane_x7_description/crane_x7_description/robot_description_loader.py

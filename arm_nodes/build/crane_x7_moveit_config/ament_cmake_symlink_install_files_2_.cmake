@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_moveit_config" FILES "/home/f-keiji/Ctrl_Z_ws/build/crane_x7_moveit_config/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/crane_x7_moveit_config" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

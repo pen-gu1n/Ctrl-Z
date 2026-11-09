@@ -1,0 +1,27 @@
+[0.011s] Invoking command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f-keiji/Ctrl_Z_ws/install/crane_x7_control
+[0.017s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.017s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.017s]   CMake.
+[0.017s] 
+[0.017s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.018s]   to tell CMake that the project requires at least <min> but has been updated
+[0.018s]   to work with policies introduced by <max> or earlier.
+[0.018s] 
+[0.018s] [0m
+[0.022s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.166s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.171s] -- Found hardware_interface: 6.10.1 (/opt/ros/lyrical/share/hardware_interface/cmake)
+[0.186s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.361s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.362s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.377s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.450s] -- Found rt_manipulators_cpp: 1.1.0 (/home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake)
+[0.455s] [31mCMake Error at CMakeLists.txt:35 (ament_target_dependencies):
+[0.456s]   Unknown CMake command "ament_target_dependencies".
+[0.456s] 
+[0.456s] [0m
+[0.456s] -- Configuring incomplete, errors occurred!
+[0.461s] Invoked command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f-keiji/Ctrl_Z_ws/install/crane_x7_control

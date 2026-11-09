@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_examples" FILES "/opt/ros/lyrical/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/crane_x7_examples/environment")

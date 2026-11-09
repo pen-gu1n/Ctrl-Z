@@ -1,0 +1,31 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.5/VTK-targets.cmake:1537 (set_target_properties):
+  The link interface of target "VTK::jsoncpp" contains:
+
+    JsonCpp::JsonCpp
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/vtk-9.5/vtk-config.cmake:148 (include)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:277 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:326 (find_VTK)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:579 (find_external_library)
+  /opt/ros/lyrical/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /opt/ros/lyrical/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+  CMakeLists.txt:27 (find_package)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

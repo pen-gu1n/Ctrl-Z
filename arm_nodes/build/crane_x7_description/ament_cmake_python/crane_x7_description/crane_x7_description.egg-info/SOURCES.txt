@@ -1,0 +1,7 @@
+setup.py
+crane_x7_description/__init__.py
+crane_x7_description/robot_description_loader.py
+crane_x7_description.egg-info/PKG-INFO
+crane_x7_description.egg-info/SOURCES.txt
+crane_x7_description.egg-info/dependency_links.txt
+crane_x7_description.egg-info/top_level.txt

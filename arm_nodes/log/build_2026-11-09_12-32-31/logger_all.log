@@ -1,0 +1,255 @@
+[-1794195149105158144.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-up-to', 'crane_x7_gazebo']
+[-1794195149105158144.000s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['crane_x7_gazebo'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x737512198050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x737511c52f90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x737511c52f90>>, mixin_verb=('build',))
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/f-keiji/Ctrl_Z_ws'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_description) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_description' with type 'ros.ament_cmake' and name 'crane_x7_description'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'ros'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['cmake', 'python']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'cmake'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'python'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extensions ['python_setup_py']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros) by extension 'python_setup_py'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7' with type 'ros.ament_cmake' and name 'crane_x7'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_control) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_control' with type 'ros.ament_cmake' and name 'crane_x7_control'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_examples' with type 'ros.ament_cmake' and name 'crane_x7_examples'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_examples_py) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_examples_py' with type 'ros.ament_python' and name 'crane_x7_examples_py'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_gazebo) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_gazebo' with type 'ros.ament_cmake' and name 'crane_x7_gazebo'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/crane_x7_ros/crane_x7_moveit_config) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crane_x7_ros/crane_x7_moveit_config' with type 'ros.ament_cmake' and name 'crane_x7_moveit_config'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'ros'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extensions ['cmake', 'python']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'cmake'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'python'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extensions ['python_setup_py']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp) by extension 'python_setup_py'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_examples) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rt_manipulators_cpp/rt_manipulators_examples' with type 'ros.ament_cmake' and name 'rt_manipulators_examples'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extensions ['ignore', 'ignore_ament_install']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extension 'ignore'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extension 'ignore_ament_install'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extensions ['colcon_pkg']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extension 'colcon_pkg'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extensions ['colcon_meta']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extension 'colcon_meta'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extensions ['ros']
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_manipulators_cpp/rt_manipulators_lib) by extension 'ros'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rt_manipulators_cpp/rt_manipulators_lib' with type 'ros.ament_cmake' and name 'rt_manipulators_cpp'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'crane_x7' in 'src/crane_x7_ros/crane_x7'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'crane_x7_examples_py' in 'src/crane_x7_ros/crane_x7_examples_py'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'crane_x7_examples' in 'src/crane_x7_ros/crane_x7_examples'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'rt_manipulators_examples' in 'src/rt_manipulators_cpp/rt_manipulators_examples'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'crane_x7_moveit_config' in 'src/crane_x7_ros/crane_x7_moveit_config'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'crane_x7_control' in 'src/crane_x7_ros/crane_x7_control'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'rt_manipulators_cpp' in 'src/rt_manipulators_cpp/rt_manipulators_lib'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.package_selection:Skipping package 'crane_x7_description' in 'src/crane_x7_description'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[-1794195149105158144.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/f-keiji/Ctrl_Z_ws/install
+[-1794195149105158144.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 416 installed packages in /opt/ros/lyrical
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_args' from command line to 'None'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_target' from command line to 'None'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[-1794195149105158144.000s] Level 5:colcon.colcon_core.verb:set package 'crane_x7_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.verb:Building package 'crane_x7_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo', 'merge_install': False, 'path': '/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_gazebo', 'symlink_install': True, 'test_result_base': None}
+[-1794195149105158144.000s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[-1794195149105158144.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[-1794195149105158144.000s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_gazebo' with build type 'ament_cmake'
+[-1794195149105158144.000s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_gazebo'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo -- -j8 -l8
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo -- -j8 -l8
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_gazebo)
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo' for CMake module files
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo' for CMake config files
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_gazebo', 'cmake_prefix_path')
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.ps1'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.dsv'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.sh'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/bin'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/lib/pkgconfig/crane_x7_gazebo.pc'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/lib/python3.14/site-packages'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/bin'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.ps1'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.dsv'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.sh'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.bash'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.zsh'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/colcon-core/packages/crane_x7_gazebo)
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crane_x7_gazebo)
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo' for CMake module files
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo' for CMake config files
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('crane_x7_gazebo', 'cmake_prefix_path')
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.ps1'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.dsv'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/hook/cmake_prefix_path.sh'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/bin'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/lib/pkgconfig/crane_x7_gazebo.pc'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/lib/python3.14/site-packages'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:checking '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/bin'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.ps1'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.dsv'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.sh'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.bash'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.zsh'
+[-1794195149105158144.000s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/colcon-core/packages/crane_x7_gazebo)
+[-1794195149105158144.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[-1794195149105158144.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[-1794195149105158144.000s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[-1794195149105158144.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[-1794195149105158144.000s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[-1794195149105158144.000s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[-1794195149105158144.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f-keiji/Ctrl_Z_ws/install/local_setup.ps1'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/f-keiji/Ctrl_Z_ws/install/_local_setup_util_ps1.py'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f-keiji/Ctrl_Z_ws/install/setup.ps1'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f-keiji/Ctrl_Z_ws/install/local_setup.sh'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/f-keiji/Ctrl_Z_ws/install/_local_setup_util_sh.py'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f-keiji/Ctrl_Z_ws/install/setup.sh'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f-keiji/Ctrl_Z_ws/install/local_setup.bash'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f-keiji/Ctrl_Z_ws/install/setup.bash'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/f-keiji/Ctrl_Z_ws/install/local_setup.zsh'
+[-1794195149105158144.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/f-keiji/Ctrl_Z_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+controller_manager:crane_x7_description:hardware_interface:parallel_gripper_controller:pluginlib:rclcpp:robot_state_publisher:ros2_controllers:rt_manipulators_cpp

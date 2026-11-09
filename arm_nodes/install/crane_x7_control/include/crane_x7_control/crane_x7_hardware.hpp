@@ -1,0 +1,1 @@
+/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_control/include/crane_x7_control/crane_x7_hardware.hpp

@@ -1,0 +1,60 @@
+[0.012s] Invoking command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo
+[0.020s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.021s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.021s]   CMake.
+[0.021s] 
+[0.021s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.021s]   to tell CMake that the project requires at least <min> but has been updated
+[0.021s]   to work with policies introduced by <max> or earlier.
+[0.021s] 
+[0.021s] [0m
+[0.114s] -- The C compiler identification is GNU 15.2.0
+[0.242s] -- The CXX compiler identification is GNU 15.2.0
+[0.259s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.437s] -- Detecting C compile features - done
+[0.463s] -- Detecting CXX compiler ABI info
+[0.627s] -- Detecting CXX compiler ABI info - done
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.660s] -- Detecting CXX compile features - done
+[0.680s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[1.171s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.258s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.441s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.444s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.444s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.446s] -- Added test 'lint_cmake' to check CMake code style
+[1.447s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.449s] -- Added test 'xmllint' to check XML markup files
+[1.453s] -- Configuring done (1.4s)
+[1.458s] -- Generating done (0.0s)
+[1.459s] -- Build files have been written to: /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo
+[1.465s] Invoked command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo
+[1.465s] Invoking command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo -- -j8 -l8
+[1.502s] Invoked command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo -- -j8 -l8
+[1.511s] Invoking command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo
+[1.519s] -- Install configuration: ""
+[1.519s] -- Execute custom install script
+[1.519s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo//launch/crane_x7_with_table.launch.py
+[1.528s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo//worlds/table.sdf
+[1.540s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo//gui/gui.config
+[1.555s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/ament_index/resource_index/package_run_dependencies/crane_x7_gazebo
+[1.571s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/ament_index/resource_index/parent_prefix_path/crane_x7_gazebo
+[1.585s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/environment/ament_prefix_path.sh
+[1.596s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/environment/ament_prefix_path.dsv
+[1.605s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/environment/path.sh
+[1.614s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/environment/path.dsv
+[1.622s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/local_setup.bash
+[1.631s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/local_setup.fish
+[1.642s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/local_setup.sh
+[1.657s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/local_setup.zsh
+[1.672s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/local_setup.dsv
+[1.687s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.dsv
+[1.699s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/ament_index/resource_index/packages/crane_x7_gazebo
+[1.709s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/cmake/crane_x7_gazeboConfig.cmake
+[1.721s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/cmake/crane_x7_gazeboConfig-version.cmake
+[1.735s] -- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/crane_x7_gazebo/share/crane_x7_gazebo/package.xml
+[1.755s] Invoked command in '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo

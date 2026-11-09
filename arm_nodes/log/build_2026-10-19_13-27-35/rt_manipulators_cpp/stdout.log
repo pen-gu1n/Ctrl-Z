@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found dynamixel_sdk: 4.0.3 (/opt/ros/lyrical/share/dynamixel_sdk/cmake)
+-- Found eigen3_cmake_module: 0.5.1 (/opt/ros/lyrical/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0")
+-- Found yaml_cpp_vendor: 9.2.1 (/opt/ros/lyrical/share/yaml_cpp_vendor/cmake)
+-- Found yaml-cpp: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake (found version "0.8.0")
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/f-keiji/Ctrl_Z_ws/build/rt_manipulators_cpp
+[ 13%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/hardware.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/hardware_joints.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/kinematics.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/joint.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/hardware_communicator.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/kinematics_utils.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_xm430.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/config_file_parser.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_x.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_xm540.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_xh430.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_xh540.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_p.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rt_manipulators_cpp.dir/src/dynamixel_ph42.cpp.o[0m
+[100%] [1m[32mLinking CXX shared library librt_manipulators_cpp.so[0m
+[100%] Built target rt_manipulators_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/environment/library_path.sh
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/environment/library_path.dsv
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/config_file_parser.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_base.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_p.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_ph42.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_x.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_xh430.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_xh540.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_xm430.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/dynamixel_xm540.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/hardware.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/hardware_communicator.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/hardware_joints.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/joint.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/kinematics.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/kinematics_utils.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/include/rt_manipulators_cpp/link.hpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/ament_index/resource_index/package_run_dependencies/rt_manipulators_cpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/ament_index/resource_index/parent_prefix_path/rt_manipulators_cpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/environment/path.sh
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/environment/path.dsv
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/local_setup.bash
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/local_setup.fish
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/local_setup.sh
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/local_setup.zsh
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/local_setup.dsv
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/package.dsv
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/ament_index/resource_index/packages/rt_manipulators_cpp
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake/rt_manipulators_cppConfig.cmake
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake/rt_manipulators_cppConfig-version.cmake
+-- Symlinking: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/package.xml
+-- Installing: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/lib/librt_manipulators_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/lib/librt_manipulators_cpp.so" to ""
+-- Installing: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake/export_rt_manipulators_cppExport.cmake
+-- Installing: /home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/share/rt_manipulators_cpp/cmake/export_rt_manipulators_cppExport-noconfig.cmake

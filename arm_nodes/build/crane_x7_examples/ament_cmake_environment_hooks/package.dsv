@@ -1,0 +1,5 @@
+source;share/crane_x7_examples/local_setup.bash
+source;share/crane_x7_examples/local_setup.dsv
+source;share/crane_x7_examples/local_setup.fish
+source;share/crane_x7_examples/local_setup.sh
+source;share/crane_x7_examples/local_setup.zsh

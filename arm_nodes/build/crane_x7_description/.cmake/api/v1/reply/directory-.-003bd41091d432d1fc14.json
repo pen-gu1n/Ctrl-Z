@@ -1,0 +1,163 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"include",
+			"find_package",
+			"_ament_cmake_python_byte_compile",
+			"_ament_cmake_python_install_package_impl",
+			"ament_cmake_python_install_registered_packages",
+			"ament_execute_extensions",
+			"ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/lyrical/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/lyrical/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
+			"/opt/ros/lyrical/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/lyrical/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/lyrical/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/lyrical/share/ament_cmake_python/cmake/ament_python_install_registered_packages.cmake",
+			"/opt/ros/lyrical/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/lyrical/share/ament_cmake_core/cmake/core/ament_package.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 2
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 5,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 66,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 12
+			},
+			{
+				"file" : 6,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 180,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 44,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 171,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 18
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"scriptFile" : "/home/f-keiji/Ctrl_Z_ws/build/crane_x7_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

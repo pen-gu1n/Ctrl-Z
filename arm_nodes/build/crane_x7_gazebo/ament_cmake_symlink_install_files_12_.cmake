@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_gazebo" FILES "/home/f-keiji/Ctrl_Z_ws/build/crane_x7_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/crane_x7_gazebo" "DESTINATION" "share/ament_index/resource_index/packages")

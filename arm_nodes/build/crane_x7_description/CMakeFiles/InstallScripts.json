@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/f-keiji/Ctrl_Z_ws/build/crane_x7_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/f-keiji/Ctrl_Z_ws/build/rt_manipulators_cpp/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

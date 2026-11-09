@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/f-keiji/Ctrl_Z_ws/src/rt_manipulators_cpp/rt_manipulators_lib" FILES "/home/f-keiji/Ctrl_Z_ws/src/rt_manipulators_cpp/rt_manipulators_lib/package.xml" "DESTINATION" "share/rt_manipulators_cpp")

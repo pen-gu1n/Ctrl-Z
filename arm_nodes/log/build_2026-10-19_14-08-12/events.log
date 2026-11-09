@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (-) JobUnselected: {'identifier': 'crane_x7'}
+[0.000237] (-) JobUnselected: {'identifier': 'crane_x7_control'}
+[0.000351] (-) JobUnselected: {'identifier': 'crane_x7_description'}
+[0.000555] (-) JobUnselected: {'identifier': 'crane_x7_examples_py'}
+[0.000650] (-) JobUnselected: {'identifier': 'crane_x7_gazebo'}
+[0.000777] (-) JobUnselected: {'identifier': 'crane_x7_moveit_config'}
+[0.000811] (-) JobUnselected: {'identifier': 'rt_manipulators_cpp'}
+[0.000930] (-) JobUnselected: {'identifier': 'rt_manipulators_examples'}
+[0.000996] (crane_x7_examples) JobQueued: {'identifier': 'crane_x7_examples', 'dependencies': OrderedDict({'crane_x7_description': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_description', 'rt_manipulators_cpp': '/home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp', 'crane_x7_control': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_control', 'crane_x7_moveit_config': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_moveit_config'})}
+[0.001048] (crane_x7_examples) JobStarted: {'identifier': 'crane_x7_examples'}
+[0.019191] (crane_x7_examples) JobProgress: {'identifier': 'crane_x7_examples', 'progress': 'cmake'}
+[0.020285] (crane_x7_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/f-keiji/Ctrl_Z_ws/src/crane_x7_ros/crane_x7_examples', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/f-keiji/Ctrl_Z_ws/install/crane_x7_examples'], 'cwd': '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_examples', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/lyrical/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'f-keiji', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_control/lib:/home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp/lib:/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/f-keiji', 'OLDPWD': '/home/f-keiji/Ctrl_Z_ws', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '7417', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '7446', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=893abb4cb4403f5a581829886ad58b59', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/f-keiji/Ctrl_Z_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'f-keiji', 'MANAGERPIDFDID': '4805', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f-keiji', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '6d961731049045e0bcf555e43315e93f', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': '6250e003f6ce5491cc70c6346ac38a1a', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6ODKX3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_moveit_config:/home/f-keiji/Ctrl_Z_ws/install/crane_x7_control:/home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp:/home/f-keiji/Ctrl_Z_ws/install/crane_x7_description:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/f-keiji/Ctrl_Z_ws/build/crane_x7_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=893abb4cb4403f5a581829886ad58b59', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_description/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/home/f-keiji/Ctrl_Z_ws/install/crane_x7_moveit_config:/home/f-keiji/Ctrl_Z_ws/install/crane_x7_control:/home/f-keiji/Ctrl_Z_ws/install/rt_manipulators_cpp:/home/f-keiji/Ctrl_Z_ws/install/crane_x7_description:/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor:/opt/ros/lyrical'}), 'shell': False}
+[0.032617] (crane_x7_examples) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.032841] (crane_x7_examples) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.032939] (crane_x7_examples) StderrLine: {'line': b'  CMake.\n'}
+[0.033024] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[0.033131] (crane_x7_examples) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.033213] (crane_x7_examples) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.033294] (crane_x7_examples) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.033373] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[0.033452] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[0.041397] (crane_x7_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[0.099875] (-) TimerEvent: {}
+[0.200244] (-) TimerEvent: {}
+[0.300552] (-) TimerEvent: {}
+[0.313176] (crane_x7_examples) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.318969] (crane_x7_examples) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/lyrical/share/cv_bridge/cmake)\n'}
+[0.355377] (crane_x7_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[0.363969] (crane_x7_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[0.376248] (crane_x7_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.385747] (crane_x7_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400642] (-) TimerEvent: {}
+[0.500938] (-) TimerEvent: {}
+[0.517398] (crane_x7_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[0.519094] (crane_x7_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.542826] (crane_x7_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601087] (-) TimerEvent: {}
+[0.603637] (crane_x7_examples) StdoutLine: {'line': b'-- Found image_geometry: 4.1.0 (/opt/ros/lyrical/share/image_geometry/cmake)\n'}
+[0.605743] (crane_x7_examples) StdoutLine: {'line': b'-- Found image_transport: 6.4.10 (/opt/ros/lyrical/share/image_transport/cmake)\n'}
+[0.616159] (crane_x7_examples) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.15.2 (/opt/ros/lyrical/share/moveit_ros_planning_interface/cmake)\n'}
+[0.701237] (-) TimerEvent: {}
+[0.801523] (-) TimerEvent: {}
+[0.856409] (crane_x7_examples) StdoutLine: {'line': b'-- Found tcb_span: 2.0.3 (/opt/ros/lyrical/share/tcb_span/cmake)\n'}
+[0.857713] (crane_x7_examples) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 32.0.3 (/opt/ros/lyrical/share/rclcpp_lifecycle/cmake)\n'}
+[0.901715] (-) TimerEvent: {}
+[1.002036] (-) TimerEvent: {}
+[1.102280] (-) TimerEvent: {}
+[1.126711] (crane_x7_examples) StdoutLine: {'line': b'-- Found pcl_conversions: 2.10.0 (/opt/ros/lyrical/share/pcl_conversions/cmake)\n'}
+[1.175297] (crane_x7_examples) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.202379] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.202556] (-) TimerEvent: {}
+[1.208168] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.211973] (crane_x7_examples) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[1.302734] (-) TimerEvent: {}
+[1.403073] (-) TimerEvent: {}
+[1.503361] (-) TimerEvent: {}
+[1.603733] (-) TimerEvent: {}
+[1.704031] (-) TimerEvent: {}
+[1.804407] (-) TimerEvent: {}
+[1.904761] (-) TimerEvent: {}
+[2.005124] (-) TimerEvent: {}
+[2.053105] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.059513] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.105215] (-) TimerEvent: {}
+[2.205488] (-) TimerEvent: {}
+[2.305808] (-) TimerEvent: {}
+[2.406320] (-) TimerEvent: {}
+[2.506702] (-) TimerEvent: {}
+[2.606980] (-) TimerEvent: {}
+[2.707331] (-) TimerEvent: {}
+[2.778789] (crane_x7_examples) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.807424] (-) TimerEvent: {}
+[2.907680] (-) TimerEvent: {}
+[3.007972] (-) TimerEvent: {}
+[3.108316] (-) TimerEvent: {}
+[3.208692] (-) TimerEvent: {}
+[3.308961] (-) TimerEvent: {}
+[3.409303] (-) TimerEvent: {}
+[3.509661] (-) TimerEvent: {}
+[3.535575] (crane_x7_examples) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.609856] (-) TimerEvent: {}
+[3.710149] (-) TimerEvent: {}
+[3.810460] (-) TimerEvent: {}
+[3.910875] (-) TimerEvent: {}
+[4.011234] (-) TimerEvent: {}
+[4.111506] (-) TimerEvent: {}
+[4.211788] (-) TimerEvent: {}
+[4.229846] (crane_x7_examples) StdoutLine: {'line': b'-- Found pcl_ros: 2.10.0 (/opt/ros/lyrical/share/pcl_ros/cmake)\n'}
+[4.246114] (crane_x7_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[4.311876] (-) TimerEvent: {}
+[4.374014] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.375186] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.375469] (crane_x7_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.375540] (crane_x7_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.376306] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.376416] (crane_x7_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.376634] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.376744] (crane_x7_examples) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[4.377028] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.377390] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.378197] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.378309] (crane_x7_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.378541] (crane_x7_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.380284] (crane_x7_examples) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.412010] (-) TimerEvent: {}
+[4.512356] (-) TimerEvent: {}
+[4.612627] (-) TimerEvent: {}
+[4.639590] (crane_x7_examples) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/vtk-9.5/VTK-targets.cmake:1537 (set_target_properties):\n'}
+[4.639747] (crane_x7_examples) StderrLine: {'line': b'  The link interface of target "VTK::jsoncpp" contains:\n'}
+[4.639810] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[4.639868] (crane_x7_examples) StderrLine: {'line': b'    JsonCpp::JsonCpp\n'}
+[4.639922] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[4.639975] (crane_x7_examples) StderrLine: {'line': b'  but the target was not found.  Possible reasons include:\n'}
+[4.640028] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[4.640097] (crane_x7_examples) StderrLine: {'line': b'    * There is a typo in the target name.\n'}
+[4.640150] (crane_x7_examples) StderrLine: {'line': b'    * A find_package call is missing for an IMPORTED target.\n'}
+[4.640206] (crane_x7_examples) StderrLine: {'line': b'    * An ALIAS target is missing.\n'}
+[4.640259] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[4.640310] (crane_x7_examples) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.640363] (crane_x7_examples) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/vtk-9.5/vtk-config.cmake:148 (include)\n'}
+[4.640415] (crane_x7_examples) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:277 (find_package)\n'}
+[4.640469] (crane_x7_examples) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:326 (find_VTK)\n'}
+[4.640521] (crane_x7_examples) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:579 (find_external_library)\n'}
+[4.640581] (crane_x7_examples) StderrLine: {'line': b'  /opt/ros/lyrical/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[4.640638] (crane_x7_examples) StderrLine: {'line': b'  /opt/ros/lyrical/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[4.640691] (crane_x7_examples) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[4.640744] (crane_x7_examples) StderrLine: {'line': b'\n'}
+[4.640797] (crane_x7_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[4.644488] (crane_x7_examples) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[4.644604] (crane_x7_examples) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[4.676002] (crane_x7_examples) CommandEnded: {'returncode': 1}
+[4.699008] (crane_x7_examples) JobEnded: {'identifier': 'crane_x7_examples', 'rc': 1}
+[4.709446] (-) EventReactorShutdown: {}
